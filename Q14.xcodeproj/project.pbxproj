@@ -72,6 +72,8 @@
 		800001DE1924331100039F10 /* reglas.m in Sources */ = {isa = PBXBuildFile; fileRef = 800001A91924331100039F10 /* reglas.m */; };
 		800001DF1924331100039F10 /* resultados.png in Resources */ = {isa = PBXBuildFile; fileRef = 800001AA1924331100039F10 /* resultados.png */; };
 		800001E71924404900039F10 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800001E61924404900039F10 /* Default-568h@2x.png */; };
+		8027CA471924F192006D7667 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8027CA461924F192006D7667 /* MessageUI.framework */; };
+		8027CA491924F22B006D7667 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8027CA481924F22B006D7667 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +174,8 @@
 		800001E419243FE500039F10 /* ICONOAPP80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ICONOAPP80.png; path = ../ICONOAPP80.png; sourceTree = "<group>"; };
 		800001E519243FFD00039F10 /* ICONOAPP58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ICONOAPP58.png; path = ../ICONOAPP58.png; sourceTree = "<group>"; };
 		800001E61924404900039F10 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		8027CA461924F192006D7667 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8027CA481924F22B006D7667 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +183,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8027CA491924F22B006D7667 /* CoreFoundation.framework in Frameworks */,
+				8027CA471924F192006D7667 /* MessageUI.framework in Frameworks */,
 				8000013D1924329F00039F10 /* CoreGraphics.framework in Frameworks */,
 				8000013F1924329F00039F10 /* UIKit.framework in Frameworks */,
 				8000013B1924329F00039F10 /* Foundation.framework in Frameworks */,
@@ -220,6 +226,8 @@
 		800001391924329F00039F10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8027CA481924F22B006D7667 /* CoreFoundation.framework */,
+				8027CA461924F192006D7667 /* MessageUI.framework */,
 				8000013A1924329F00039F10 /* Foundation.framework */,
 				8000013C1924329F00039F10 /* CoreGraphics.framework */,
 				8000013E1924329F00039F10 /* UIKit.framework */,
