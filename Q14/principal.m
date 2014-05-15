@@ -10,7 +10,7 @@
 #import "AppDelegate.h"
 #import "inicio.h"
 #import "easteregg.h"
-#import "Reachability.h"
+#import "Internet.h"
 
 @interface principal ()
 
